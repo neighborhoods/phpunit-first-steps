@@ -9,5 +9,12 @@
             "email": "timothy.rourke@55places.com"
         }
     ],
-    "require": {}
+    "autoload": {
+        "psr-4": {
+            "Neighborhoods\\PhpUnitFirstSteps\\": "src/"
+        }
+    },
+    "require": {
+        "php": "^7.2"
+    }
 }
