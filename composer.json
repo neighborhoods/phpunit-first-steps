@@ -1,0 +1,13 @@
+{
+    "name": "neighborhoods/phpunit-first-steps",
+    "description": "The companion example code that goes along with our coming tutorial series on working with PHPUnit",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Timothy Rouke",
+            "email": "timothy.rourke@55places.com"
+        }
+    ],
+    "require": {}
+}
