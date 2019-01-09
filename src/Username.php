@@ -9,7 +9,7 @@ class Username
     /**
      * @var string
      */
-    private const ALLOWABLE_CHARACTERS_REGEX = "/[A-Za-z0-9]+/u";
+    private const ALLOWABLE_CHARACTERS_REGEX = "/^[A-Za-z0-9]+$/u";
 
     /**
      * @var string
