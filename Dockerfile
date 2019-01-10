@@ -12,3 +12,7 @@ RUN php -r "unlink('composer-setup.php');"
 RUN mv composer.phar /usr/local/bin/composer
 
 RUN composer install
+
+RUN apk update
+RUN apk upgrade
+RUN apk add bash
