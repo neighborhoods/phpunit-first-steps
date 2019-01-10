@@ -15,7 +15,7 @@ class UsernameTest extends TestCase
     public function createUsername() {
         $usernameString = "abcdefghijklmnopqrstuvwxyz1234567890abc";
         $username = new Username($usernameString);
-        $this->assertEquals($usernameString, $username->username());
+        $this->assertSame($usernameString, $username->username());
     }
 
     /**
@@ -35,7 +35,7 @@ class UsernameTest extends TestCase
         $usernameString = "abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopqrstuvwxyz1234567890abcdefghijklmnopq" .
             "rstuvwxyz1234567890abcdefghijklmnopqrst";
         $username = new Username($usernameString);
-        $this->assertEquals($usernameString, $username->username());
+        $this->assertSame($usernameString, $username->username());
     }
 
     /**
@@ -59,7 +59,7 @@ class UsernameTest extends TestCase
     public function testCreateUsernameWith1Character() {
         $usernameString = "a";
         $username = new Username($usernameString);
-        $this->assertEquals($usernameString, $username->username());
+        $this->assertSame($usernameString, $username->username());
     }
 
     /**
